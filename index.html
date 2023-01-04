@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span>
+            <i style="color: aliceblue;" class="fas fa-bars"></i>
+        </span>
+        <ul class="navbarList">
+          <li><a class="home" href="">Home</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+        <div class="searchbar">
+            <input class="search-input" type="text" name="search" id="search" placeholder="Search Here">
+            <button  class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="cart-btn">
+            <span ><i style="color: aliceblue;" class="fas fa-cart-plus"></i></span></li>
+                <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- content/Products -->
+
+    <section class="products">
+        <div class="section-title">
+            <h2>our products</h2>
+        </div>
+        <div class="products-center">
+
+        </div>
+    </section>
+
+
+    <!-- Cart -->
+
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-- cartItems -->
+            </div>
+            <div class="cart-footer">
+                <h3>Your Total:<i class="fa-solid fa-indian-rupee-sign"></i><span class="cart-total">0</span></h3>
+                <button class="btn-buy">Buy</button>
+                <div class="clear">
+                    <button class="btn-clear">Clear Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- buy section -->
+
+    <div class="buy-modal">
+        <div class="buy-modal-content">
+            <span class="close-buy-modal"><i class="fas fa-window-close"></i></span>
+            <h3>Here is your order summary</h3>
+            <div class="buy-content">
+                <!-- content here -->
+            </div>
+            <div class="cart-footer">
+                <h3>Your Total:<i class="fa-solid fa-indian-rupee-sign"></i><span class="total-buy-price">0</span></h3>
+            </div>
+            <br>
+            <h3>Thank you for shopping with us !</h3>
+        </div>
+    </div>
+
+
+    <!-- view Product -->
+
+    <div class="view-modal">
+        <div class="view-modal-content">
+            <span class="close-view-modal"><i class="fas fa-window-close"></i></span>
+            <h3>Here is your Product summary</h3>
+            <div class="view-content">
+                <!-- content here -->
+            </div>
+            <!-- <div class="cart-footer">
+                <h3>Your Total:<i class="fa-solid fa-indian-rupee-sign"></i><span class="total-buy-price">0</span></h3>
+            </div> -->
+            
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>

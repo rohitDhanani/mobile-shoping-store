@@ -1,0 +1,85 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Samsung S22 Ultra",
+          "type": "Smart Phone",
+          "price": 72500,
+          "rating": 4,
+          "image": { "fields": { "file": { "url": "./images/product-1.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Iphone 14",
+          "type": "Smart Phone",
+          "price": 63000,
+          "rating": 3,
+          "image": { "fields": { "file": { "url": "./images/product-2.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Google Pixel 7 Pro",
+          "type": "Smart Phone",
+          "price": 62200,
+          "rating": 5,
+          "image": { "fields": { "file": { "url": "./images/product-3.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Iphone 14 Pro Max",
+          "type": "Smart Phone",
+          "price": 102800,
+          "rating": 4,
+          "image": { "fields": { "file": { "url": "./images/product-4.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Asus Zenfone 9",
+          "type": "Smart Phone",
+          "price": 51880,
+          "rating": 2,
+          "image": { "fields": { "file": { "url": "./images/product-5.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Oneplus 10 Pro",
+          "type": "Smart Phone",
+          "price": 53200,
+          "rating": 3,
+          "image": { "fields": { "file": { "url": "./images/product-6.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Ipad Pro",
+          "type": "Tablet",
+          "price": 64500,
+          "rating": 5,
+          "image": { "fields": { "file": { "url": "./images/product-7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Samsung Tab S8",
+          "type": "Tablet",
+          "price": 71300,
+          "rating": 4,
+          "image": { "fields": { "file": { "url": "./images/product-8.jpg" } } }
+        }
+      }
+    ]
+  }
+  

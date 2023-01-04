@@ -21,7 +21,11 @@ const viewContent=document.querySelector('.view-content')
 const closeViewModalBtn=document.querySelector('.close-view-modal')
 const viewModal = document.querySelector(".view-modal")
 
+const NavbarList=document.querySelector(".navbarList")
 
+const toggleNavBarList=()=>{
+    NavbarList.classList.toggle("showNavBarList")
+}
 
 const renderProductsInDom=(products)=>{
     // console.log(products);
